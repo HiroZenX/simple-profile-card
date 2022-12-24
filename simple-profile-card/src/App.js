@@ -8,9 +8,11 @@ function App() {
   return (
     <div className="App">
       <Image />
-      <Pinfo />
-      <About />
-      <Interests />
+      <div className="content">
+        <Pinfo />
+        <About />
+        <Interests />
+      </div>
       <Footer />
     </div>
   );

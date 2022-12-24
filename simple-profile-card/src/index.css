@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(45, 45, 45);
+}
+.App{
+  max-width: 350px;
+  margin: 30px 0;
+  background-color: rgb(26, 26, 26);
+  overflow: hidden;
+  border-radius: 10px;
+}
+/* image styling */
+.image img{
+  max-width: 350px;
+}
+
+/* content styling */
+.content{
+  padding: 0px 20px;
+}
+
+/* Pinfo styling */
+.pinfo{
+
+  text-align: center;
+  padding: 10px 0;
+  color: rgb(235, 235, 235);
+}
+.pinfo > h1{
+  font-size: 1.7em;
+  letter-spacing: 0.7px;
+  word-spacing: 5px;
+}
+.pinfo > p{
+  font-weight: 600;
+  padding: 5px 0 10px;
+  color: rgb(103, 171, 255);
+  letter-spacing: 1px;
+}
+.pinfo > a{
+  color: rgb(152, 239, 239);
+  text-decoration:underline;
+}
+.pinfo > .nav-btn{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0 10px;
+}
+.pinfo > .nav-btn > a{
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+  padding: 8px 13px;
+}
+.pinfo > .nav-btn > a > p{
+  margin-left: 10px;
+}
+.pinfo > .nav-btn a:nth-child(1){
+  color: black;
+  background-color: rgb(235, 235, 235);
+}
+.pinfo > .nav-btn a:nth-child(2){
+  background-color: rgb(0, 208, 255);
+  color: #fff;
+}
+
+/* about styling */
+.about{
+  color: rgb(220, 220, 220);
+}
+.about > h2{
+  font-size: 1.3em;
+  margin-bottom: 5px;
+}
+.about > p{
+  line-height: 1.4;
+}
+
+/* interests styling */
+.interests{
+  color: rgb(220, 220, 220);
+  margin: 20px 0 10px;
+}
+.interests > h2{
+  font-size: 1.3em;
+  margin-bottom: 5px;
+}
+.interests > p{
+  line-height: 1.4;
+}
+
+/* footer styling */
+.footer{
+  background-color: black;
+  padding: 15px 0 8px;
+  color: rgb(128, 128, 128);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer > p{
+  margin: 0 10px;
+  cursor: pointer;
+  font-size:40px;
+}

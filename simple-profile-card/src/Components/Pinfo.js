@@ -9,11 +9,11 @@ export default function Pinfo() {
       <div className="nav-btn">
         <a href="/" className="button">
           <FaEnvelope/>
-          E-mail
+          <p>E-mail</p>
         </a>
         <a href="/" className="button">
           <FaLinkedin/>
-          LinkedIn
+          <p>LinkedIn</p>
         </a>
       </div>
     </div>
